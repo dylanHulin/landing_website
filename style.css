@@ -1,9 +1,11 @@
 .container {
     border: 2px solid red;
-    width: 97.6vw;
+    width: 100%;
+    overflow-x:  hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
+    justify-content: center;
 }
 
 .container div {
@@ -20,6 +22,13 @@
     background-color: #1F2937;
     height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.second_block div {    
+    display: flex;
+    flex-direction: column;
 }
 
 .third_block {
