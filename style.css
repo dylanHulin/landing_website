@@ -1,0 +1,36 @@
+.container {
+    border: 2px solid red;
+    width: 97.6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_block {
+    background-color: #1F2937;
+    width: 100%;
+}
+
+.second_block {
+    background-color: #1F2937;
+}
+
+.third_block {
+
+}
+
+.fourth_block {
+    background-color: #E5E7EB;
+}
+
+.fifth_block {
+
+}
+
+.sixth_block {
+    background-color: #1F2937;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
