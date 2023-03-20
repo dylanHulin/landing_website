@@ -16,8 +16,8 @@
     background-color: #1F2937;
     height: 100px;
     width: 100%;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     display: flex;
     justify-content: center;
 }
@@ -58,13 +58,35 @@ nav {
     background-color: #1F2937;
     height: 400px;
     width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
     display: flex;
     justify-content: center;
+    flex: 1;
+    gap: 3vw;
 }
 
 .second_block div {    
     display: flex;
     flex-direction: column;
+    flex: 1;
+}
+
+.second_block button {
+    background-color: #008CBA;
+    border-radius: 4px;
+    border: none;
+}
+
+.second_block h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.second_block p {
+    color: #E5E7EB;
 }
 
 .third_block {
