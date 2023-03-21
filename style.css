@@ -38,12 +38,9 @@
 }
 
 nav div {
-    border: 2px solid red;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 18px;
-    margin-left: 2vw;
-    width: 50px;
     color: #E5E7EB;
     display: flex;
     justify-content: flex-end;
@@ -52,18 +49,16 @@ nav div {
 }
 
 nav {
-    border: 2px solid green;
-    width: 50px;
+    width: 43%;
     display: flex;
     justify-content: flex-end;
-    flex: 1 1 auto;
 }
 
 .second_block {
     background-color: #1F2937;
     height: 400px;
     width: 100%;
-    padding-top: 4vh;
+    padding-top: 8vh;
     padding-left: 15vw;
     padding-right: 15vw;
     padding-bottom: 20vh;
@@ -72,7 +67,6 @@ nav {
     flex: 1;
     gap: 3vw;
 }
-
 
 
 .second_block div {    
@@ -112,6 +106,8 @@ nav {
 .third_block {
     height: 400px;
     width: 100%;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 .fourth_block {
