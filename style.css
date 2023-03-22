@@ -203,12 +203,19 @@ nav {
     width: 70%;
     height: 40%;
     border-radius: 8px;
+    padding-left: 10%;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.fifth_block .button_div {
+    display: flex;
+    align-items: flex-end;
 }
 
 .sixth_block {
