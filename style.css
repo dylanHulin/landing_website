@@ -89,7 +89,6 @@ nav {
 }
 
 .second_block h1 {
-    border: 2px solid red;
     color: white;
     width: 70%;
     font-size: 50px;
@@ -203,19 +202,39 @@ nav {
     width: 70%;
     height: 40%;
     border-radius: 8px;
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth_block .text_div {
+    display: flex;
+    flex: 1 2 auto;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 .fifth_block .button_div {
+    width: 30%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.fifth_block button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 8vw;
+    height: 5vh;
 }
 
 .sixth_block {
